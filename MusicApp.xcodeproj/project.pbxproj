@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		ACB84DE529D5C99D005E7366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB84DE429D5C99D005E7366 /* AppDelegate.swift */; };
 		ACB84DE729D5C99D005E7366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB84DE629D5C99D005E7366 /* SceneDelegate.swift */; };
-		ACB84DE929D5C99D005E7366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB84DE829D5C99D005E7366 /* ViewController.swift */; };
 		ACB84DEC29D5C99D005E7366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB84DEA29D5C99D005E7366 /* Main.storyboard */; };
 		ACB84DEE29D5C99E005E7366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB84DED29D5C99E005E7366 /* Assets.xcassets */; };
-		ACB84DF129D5C99E005E7366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB84DEF29D5C99E005E7366 /* LaunchScreen.storyboard */; };
+		ACB84DF929D5CA0B005E7366 /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB84DF829D5CA0B005E7366 /* TrackList.swift */; };
+		ACB84DFD29D5CE95005E7366 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB84DFC29D5CE95005E7366 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACB84DE129D5C99D005E7366 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB84DE429D5C99D005E7366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB84DE629D5C99D005E7366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACB84DE829D5C99D005E7366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACB84DEB29D5C99D005E7366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACB84DED29D5C99E005E7366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACB84DF029D5C99E005E7366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB84DF229D5C99E005E7366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB84DF829D5CA0B005E7366 /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
+		ACB84DFC29D5CE95005E7366 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 			children = (
 				ACB84DE429D5C99D005E7366 /* AppDelegate.swift */,
 				ACB84DE629D5C99D005E7366 /* SceneDelegate.swift */,
-				ACB84DE829D5C99D005E7366 /* ViewController.swift */,
+				ACB84DF829D5CA0B005E7366 /* TrackList.swift */,
+				ACB84DFC29D5CE95005E7366 /* DetailVC.swift */,
 				ACB84DEA29D5C99D005E7366 /* Main.storyboard */,
 				ACB84DED29D5C99E005E7366 /* Assets.xcassets */,
-				ACB84DEF29D5C99E005E7366 /* LaunchScreen.storyboard */,
 				ACB84DF229D5C99E005E7366 /* Info.plist */,
 			);
 			path = MusicApp;
@@ -125,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB84DF129D5C99E005E7366 /* LaunchScreen.storyboard in Resources */,
 				ACB84DEE29D5C99E005E7366 /* Assets.xcassets in Resources */,
 				ACB84DEC29D5C99D005E7366 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB84DE929D5C99D005E7366 /* ViewController.swift in Sources */,
+				ACB84DF929D5CA0B005E7366 /* TrackList.swift in Sources */,
+				ACB84DFD29D5CE95005E7366 /* DetailVC.swift in Sources */,
 				ACB84DE529D5C99D005E7366 /* AppDelegate.swift in Sources */,
 				ACB84DE729D5C99D005E7366 /* SceneDelegate.swift in Sources */,
 			);
@@ -153,14 +153,6 @@
 				ACB84DEB29D5C99D005E7366 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ACB84DEF29D5C99E005E7366 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACB84DF029D5C99E005E7366 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -302,9 +294,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Ascorp.MusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +325,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Ascorp.MusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
